@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh's - Style Urbain et Élégant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav-component></nav-component>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-gray-700">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="relative z-10 text-center text-white px-4 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">JOSH'S</h1>
+            <p class="text-xl md:text-2xl mb-8 font-light">Style contemporain, urbain et élégant pour révéler votre personnalité</p>
+            <a href="products.html" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">Découvrir la collection</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">Pourquoi choisir Josh's ?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="star" class="text-white w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Qualité Supérieure</h3>
+                    <p class="text-gray-600">Des matériaux soigneusement sélectionnés pour un confort et une durabilité exceptionnels</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="heart" class="text-white w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Style Unique</h3>
+                    <p class="text-gray-600">Des designs contemporains qui expriment votre personnalité et votre élégance</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="users" class="text-white w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Confort Optimal</h3>
+                    <p class="text-gray-600">Conçu pour accompagner vos moments de vie avec un confort inégalé</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">Collections Populaires</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Collection Urbaine" class="w-full h-80 object-cover group-hover:scale-110 transition duration-300">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition duration-300"></div>
+                    <div class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-6 transform translate-y-0 group-hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-bold text-gray-900">Collection Urbaine</h3>
+                        <a href="products.html#urban" class="text-gray-600 hover:text-gray-900 font-semibold mt-2 inline-block">Explorer →</a>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Collection Élégante" class="w-full h-80 object-cover group-hover:scale-110 transition duration-300">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition duration-300"></div>
+                    <div class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-6 transform translate-y-0 group-hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-bold text-gray-900">Collection Élégante</h3>
+                        <a href="products.html#elegant" class="text-gray-600 hover:text-gray-900 font-semibold mt-2 inline-block">Explorer →</a>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Collection Confort" class="w-full h-80 object-cover group-hover:scale-110 transition duration-300">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition duration-300"></div>
+                    <div class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-6 transform translate-y-0 group-hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-bold text-gray-900">Collection Confort</h3>
+                        <a href="products.html#comfort" class="text-gray-600 hover:text-gray-900 font-semibold mt-2 inline-block">Explorer →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-16 px-4 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Restez informé</h2>
+            <p class="text-gray-300 mb-8">Inscrivez-vous pour recevoir nos dernières collections et offres exclusives</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <input type="email" placeholder="Votre email" class="px-4 py-3 rounded-lg text-gray-900 flex-grow max-w-md">
+                <button class="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">S'inscrire</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer-component></footer-component>
+
+    <!-- Scripts -->
+    <script src="components/nav.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
