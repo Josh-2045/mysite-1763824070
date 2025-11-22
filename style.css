@@ -1,0 +1,43 @@
+/* Custom styles for Josh's Fashion */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom gradient animations */
+.bg-gradient-to-r {
+    background-size: 200% 200%;
+    animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Hover effects for cards */
+.group:hover .group-hover\\:scale-110 {
+    transform: scale(1.1);
+}
+
+/* Loading animation */
+.loading-spinner {
+    border: 3px solid #f3f4f6;
+    border-top: 3px solid #1f2937;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
